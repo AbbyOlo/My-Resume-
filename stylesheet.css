@@ -1,5 +1,114 @@
-* {background: #DCDCDC;}
-* {text-align: center;}
-p {font-family: Helvetica;
-	border: 2px solid;
+* {background-image: url("whitebackground.jpg"); }
+
+*,
+*:after,
+*:before {: borderbox;
 }
+.nav-bar{overflow:hidden;
+  background-color: #333333;
+  color: white;
+  overflow: hidden;
+  height:60px;
+  padding: 0 30px;
+	  	}
+
+.moveleft
+{width: 100%;}
+
+.textleft
+{width: 100%;}
+
+/*.paragraph-left 
+{
+  padding: 2rem;
+  width: 20%;
+  border-radius: 70px;
+ }*/
+
+.paragraph
+{
+text-align: center;
+width: 30%;
+border-radius: 70px;
+padding: 1rem;
+margin: 68%;
+}
+
+.main
+{font-size: 40px;
+ font-family: Helvetica, sans-serif;
+ text-align: center;}
+
+.list-job
+{font-size: 20px;
+ font-family: Helvetica, sans-serif; }
+
+.dbrs
+{font-size: 10px;
+ font-family: Helvetica, sans-serif;
+ text-align: center;}
+.chapters
+{font-size: 10px;
+ font-family: Helvetica, sans-serif;
+ text-align: center;}
+.windsor
+{font-size: 10px;
+ font-family: Helvetica, sans-serif;
+ text-align: center;}
+.disney
+{font-size: 10px;
+ font-family: Helvetica, sans-serif;
+ text-align: center;}
+
+.experiences
+{width: 100%;
+padding: 6rem;
+border-radius: 70px;
+}
+.center
+{width: 500px;
+margin: auto;
+border-radius: 70px;
+padding: 2rem;
+/*background-color: #000000;*/
+
+}
+
+.plus
+{display: block;
+color: black;}
+
+.list
+{text-align: center;}
+
+p {font-family: Helvetica, sans-serif;
+	}
+.myphoto {margin-top: 0px;
+		  width: 300px;
+		  height:300px;
+		  background-color: white;
+		  border-radius: 50%;
+		   
+		  
+		}
+.title
+	{margin: 0;
+		
+		line-height: 70px;
+		font-size: 60px;
+		font-family: Century Gothic, sans-serif; 
+		padding: 20px}
+
+
+.nav-bar{
+		height: 60px;
+		text-align: center;
+		font-size: 30px;
+		font-family: Helvetica, sans-serif;
+}
+ a {color: black;
+   padding: 30px;
+   line-height: 10px;
+	background-color: #ffffff;}
+
+*{text-align: right;}
