@@ -24,7 +24,12 @@
   width: 20%;
   border-radius: 70px;
  }*/
-
+.location
+{
+	text-align:center;
+	font-family: Helvetica, sans-serif;
+	text-size: 30px; 
+}
 .paragraph
 {
 text-align: center;
