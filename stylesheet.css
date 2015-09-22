@@ -1,119 +1,101 @@
-* {background-image: url("whitebackground.jpg"); }
-
 *,
 *:after,
-*:before {: borderbox;
+*:before {box-sizing: border-box;}
+
+.background {
+	background-image: url("whitebackground.jpg")
 }
-.nav-bar{overflow:hidden;
-  background-color: #333333;
+
+.nav-bar{
+  overflow: auto;
+  background-color: #696969;
   color: white;
-  overflow: hidden;
-  height:60px;
   padding: 0 30px;
 	  	}
+.title
+	{margin: 0;
+	line-height: 70px;
+	font-size: 50px;
+	font-family: Century Gothic, sans-serif; 
+	padding: 0px;
+	width: 80%;}
 
-.moveleft
-{width: 100%;}
-
-.textleft
-{width: 100%;}
-
-/*.paragraph-left 
-{
-  padding: 2rem;
-  width: 20%;
-  border-radius: 70px;
- }*/
-.location
-{
-	text-align:center;
-	font-family: Helvetica, sans-serif;
-	text-size: 30px; 
-}
-.paragraph
-{
-text-align: center;
-width: 30%;
-border-radius: 70px;
-padding: 1rem;
-margin: 68%;
-}
-
-.main
-{font-size: 40px;
- font-family: Helvetica, sans-serif;
- text-align: center;}
-
-.list-job
-{font-size: 20px;
- font-family: Helvetica, sans-serif; }
-
-.dbrs
-{font-size: 10px;
- font-family: Helvetica, sans-serif;
- text-align: center;}
-.chapters
-{font-size: 10px;
- font-family: Helvetica, sans-serif;
- text-align: center;}
-.windsor
-{font-size: 10px;
- font-family: Helvetica, sans-serif;
- text-align: center;}
-.disney
-{font-size: 10px;
- font-family: Helvetica, sans-serif;
- text-align: center;}
-
-.experiences
-{width: 100%;
-padding: 6rem;
-border-radius: 70px;
-}
-.center
-{width: 500px;
-margin: auto;
-border-radius: 70px;
-padding: 2rem;
-/*background-color: #000000;*/
+.nav-list
+{ font-family: Helvetica;
+  font-size: 2px;
+text-align: right, top;
 
 }
 
-.plus
-{display: block;
-color: black;}
+.nav-item{
+	font-size: 15px;
+	margin: 0;
 
-.list
-{text-align: center;}
+}
+.nav-item{
+	display: inline-block;
+	padding: 10px;
+}
 
-p {font-family: Helvetica, sans-serif;
-	}
-.myphoto {margin-top: 0px;
+
+.myphoto {
+		  margin-top: 8px;
 		  width: 300px;
 		  height:300px;
 		  background-color: white;
 		  border-radius: 50%;
-		   
-		  
 		}
-.title
-	{margin: 0;
-		
-		line-height: 70px;
-		font-size: 60px;
-		font-family: Century Gothic, sans-serif; 
-		padding: 20px}
+.container{
+	height: 100%;
+	overflow: auto;
 
-
-.nav-bar{
-		height: 60px;
-		text-align: center;
-		font-size: 30px;
-		font-family: Helvetica, sans-serif;
 }
- a {color: black;
-   padding: 30px;
-   line-height: 10px;
-	background-color: #ffffff;}
+.paragraph
+{
+width: 30%;
+border-radius: 70px;
+padding: 1rem;
+background-color: white;}
 
-*{text-align: right;}
+.text{text-align: center;
+	  font-family: Helvetica;}
+
+.image
+{padding-left: 50px;
+ padding-bottom: 20px;
+ padding-top: 20px;
+ padding-right: 20px;}
+.parapic
+{text-align: left;}
+
+.tagline
+{font-family: Helvetica;
+background-color: #FAEBD7; 
+font-size: 40px;
+text-align: center;
+border-radius: 20%;}
+
+.main{width: 100%;
+	padding-left:  35%;
+	
+}
+.Jobs{font-size: 25px;
+	  text-align: center;
+	   font-family: Helvetica, bold;}
+.plus
+{font-size: 40px;
+text-align: center;}
+
+.list{font-size: 20px;
+	text-align: center;}
+.dbrs{font-size: 10px;}
+.windsor{font-size: 10px;}
+.disney{font-size: 10px;}
+.chapters{font-size: 10px;}
+
+.navigator
+{font-size: 25px;
+ text-align: right;
+ color: black;
+ background-color: white;
+
