@@ -1,0 +1,26 @@
+.container 
+	{overflow: auto;}
+
+.myphoto {
+		  margin-top: 8px;
+		  width: 300px;
+		  height:300px;
+		  background-color: white;
+		  border-radius: 50%;
+		  position: left;
+		  padding: 10px;
+		}
+.text{text-align: center;
+	  font-family:'Helvetica', serif, 400;
+	  width: 26.5%;
+	  border-radius: 55px;
+	  padding: 1rem;
+	  background-color: #696969;
+	  color: #E0EBEB;
+	  overflow: hidden;}
+.Main 
+{overflow: hidden;
+float: right;}
+.Experiences
+{font-family: Helvetica;}
+

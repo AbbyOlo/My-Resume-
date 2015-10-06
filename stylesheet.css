@@ -3,7 +3,7 @@
 *:before {box-sizing: border-box;}
 
 .background {
-	background-image: url("whitebackground.jpg")
+	background-color: grey;
 }
 
 .nav-bar{
@@ -16,7 +16,7 @@
 	{margin: 0;
 	line-height: 70px;
 	font-size: 50px;
-	font-family: 'Amatic SC', cursive, 700;
+	font-family: 'Helvetica', cursive, 700;
 	padding: 0px;
 	width: 80%;}
 
@@ -38,69 +38,4 @@ text-align: right, top;
 }
 
 
-.myphoto {
-		  margin-top: 8px;
-		  width: 300px;
-		  height:300px;
-		  background-color: white;
-		  border-radius: 50%;
-		  position:fixed;
-		}
-.container{
-	height: 100%;
-	overflow: auto;
-
-}
-.paragraph
-{
-width: 30%;
-border-radius: 70px;
-padding: 1rem;
-background-color: white;
-}
-
-.text{text-align: center;
-	  font-family:'Kreon', serif, 400;}
-
-.image
-{padding-left: 50px;
- padding-bottom: 20px;
- padding-top: 20px;
- padding-right: 20px;}
- 
-.parapic
-{text-align: left;
-overflow: hidden;}
-
-.tagline
-{font-family: Helvetica;
-background-color: #FAEBD7; 
-font-size: 40px;
-text-align: center;
-border-radius: 20%;}
-
-.main{width: 100%;
-     float: top;
-     overflow:hidden;
-}
-.Jobs{font-size: 25px;
-	  text-align: center;
-	  font-family:'Open Sans Condensed', sans-serif;}
-.plus
-{font-size: 40px;
-text-align: center;}
-
-.list{font-size: 20px;
-      text-align: center;}
-
-.dbrs{font-size: 10px;}
-.windsor{font-size: 10px;}
-.disney{font-size: 10px;}
-.chapters{font-size: 10px;}
-
-.navigator
-{font-size: 25px;
- text-align: right;
- color: black;
- background-color: white;
 
