@@ -11,16 +11,21 @@
 		  padding: 10px;
 		}
 .grow img {
-	-webkit-transition: all 1s ease;
-     	-moz-transition: all 1s ease;
-       	-o-transition: all 1s ease;
-      	-ms-transition: all 1s ease;
-          transition: all 1s ease;
+  height: 300px;
+  width: 300px;
+ 
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+   transition: all 1s ease;
 }
+ 
 .grow img:hover {
-	width:300px;
-	height:300px;
+  width: 350px;
+  height: 350px;
 }
+
 
 .text{text-align: center;
 	  font-family:'Helvetica', serif, 400;
@@ -31,8 +36,10 @@
 	  color: #E0EBEB;
 	  overflow: hidden;}
 .Main 
-{overflow: hidden;
-float: right;}
+	{overflow: hidden;
+	float: right;
+	margin-left: 500px;
+	margin-right: 300px;}
 
 .Experiences
 {font-family: 'Lobster Two', cursive;
@@ -55,5 +62,4 @@ float: right;}
 
 .social 
 {float: right;
-	overflow: hidden;
-}
+	overflow: hidden;}
