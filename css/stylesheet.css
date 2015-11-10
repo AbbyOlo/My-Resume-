@@ -5,37 +5,36 @@
 .background {
 	background-color: grey;
 }
-
 .nav-bar{
   overflow: auto;
-  background-color: #696969;
+  background-color: #3DB588;
   color: white;
   padding: 0 30px;
-	  	}
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+  	}
 .title
 	{margin: 0;
 	line-height: 70px;
 	font-size: 50px;
-	font-family: 'Helvetica', cursive, 700;
+	font-family: 'Lobster Two', cursive;
 	padding: 0px;
-	width: 80%;}
+	width: 80%;
+	color:black;
+	float: left;
+	}
 
 .nav-list
-{ font-family: Helvetica;
-  font-size: 2px;
-text-align: right, top;
+{float: left;}
 
+.text {
+  		font-size: 15px;
+  text-align: right;
 }
 
 .nav-item{
 	font-size: 15px;
 	margin: 0;
-
-}
-.nav-item{
 	display: inline-block;
 	padding: 10px;
 }
-
-
 

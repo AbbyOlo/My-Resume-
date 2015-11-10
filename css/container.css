@@ -10,6 +10,9 @@
 		  position: left;
 		  padding: 10px;
 		}
+
+
+
 .text{text-align: center;
 	  font-family:'Helvetica', serif, 400;
 	  width: 26.5%;
@@ -21,6 +24,27 @@
 .Main 
 {overflow: hidden;
 float: right;}
-.Experiences
-{font-family: Helvetica;}
 
+.Experiences
+{font-family: 'Lobster Two', cursive;
+ color: #FFA07A;
+ font-size: 40px;}
+
+.List{
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+}
+
+.description {font-family: 'Cabin', Helvetica, Arial, sans-serif;}
+.text {
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+.date
+{font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	font-size: 10px;}
+.job {font-weight: 700px;}
+
+.social 
+{float: right;
+	overflow: hidden;
+}
