@@ -18,8 +18,8 @@
           transition: all 1s ease;
 }
 .grow img:hover {
-	width:100px;
-	height:100px;
+	width:200px;
+	height:200px;
 }
 
 .text{text-align: center;
